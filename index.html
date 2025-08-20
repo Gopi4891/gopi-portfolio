@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopinath S - DevOps & Cloud Engineer</title>
+    <meta name="description" content="Gopinath S - Aspiring DevOps and Cloud Computing Engineer specializing in AWS, Docker, Kubernetes, and CI/CD pipelines">
+    <meta name="keywords" content="DevOps, Cloud Computing, AWS, Docker, Kubernetes, Python, Jenkins">
+    <meta name="author" content="Gopinath S">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☁️</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Gopinath S - DevOps & Cloud Engineer">
+    <meta property="og:description" content="Aspiring DevOps Engineer with AWS expertise">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://yourportfolio.com">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="cloud">☁️</div>
+            <div class="loading-text">Loading Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-cloud"></i>
+                    <span>Gopinath S</span>
+                </div>
+                
+                <!-- Desktop Navigation -->
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#publications" class="nav-link">Publications</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <!-- Mobile Menu Toggle -->
+                <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-icons">
+                <i class="fab fa-aws"></i>
+                <i class="fab fa-docker"></i>
+                <i class="fab fa-python"></i>
+                <i class="fab fa-linux"></i>
+                <i class="fab fa-jenkins"></i>
+                <i class="fas fa-server"></i>
+            </div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Hi, I'm</span>
+                    <span class="name">Gopinath S</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Aspiring DevOps and Cloud Computing Engineer specializing in CI/CD pipelines, AWS cloud services, Docker containerization, and Kubernetes orchestration. Passionate about building scalable infrastructure and automation solutions.
+                </p>
+                
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-code"></i>
+                        View My Work
+                    </a>
+                    <a href="assets/Gopinath_Resume.pdf" class="btn btn-secondary" target="_blank">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                </div>
+                
+                <div class="hero-social">
+                    <a href="https://github.com/Gopi4891" class="social-icon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:gopipaaru2004@gmail.com" class="social-icon">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/gopinath-s" class="social-icon" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-image">
+                        <img src="images/profile.jpg" alt="Gopinath S" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="profile-placeholder">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                    <div class="profile-info">
+                        <h3>DevOps Engineer</h3>
+                        <p>AWS • Docker • Kubernetes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll Down</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know more about my journey and expertise</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-intro">
+                        <h3>DevOps & Cloud Engineering Enthusiast</h3>
+                        <p>I'm an aspiring DevOps and cloud computing engineer with hands-on knowledge in CI/CD pipelines, AWS cloud services, Docker containerization, Linux administration, and Kubernetes orchestration.</p>
+                    </div>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-rocket"></i>
+                            <div>
+                                <h4>Mission-Driven</h4>
+                                <p>Devoted to building scalable infrastructure, implementing robust cloud security practices, and streamlining development workflows through automation.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Continuous Learner</h4>
+                                <p>Currently pursuing B.Tech in Information Technology with focus on cloud technologies and DevOps methodologies.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="detail-item">
+                            <i class="fas fa-research"></i>
+                            <div>
+                                <h4>Research Focused</h4>
+                                <p>Published research in cybersecurity, demonstrating commitment to both practical implementation and theoretical knowledge.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat-grid">
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-number">7.5</div>
+                                <div class="stat-label">CGPA</div>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-project-diagram"></i>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-number">3+</div>
+                                <div class="stat-label">Major Projects</div>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-certificate"></i>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-number">3</div>
+                                <div class="stat-label">Certifications</div>
+                            </div>
+                        </div>
+                        
+                        <div class="stat-card">
+                            <div class="stat-icon">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                            <div class="stat-content">
+                                <div class="stat-number">1</div>
+                                <div class="stat-label">Publication</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My professional journey and hands-on experience</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>AWS Internship</h3>
+                            <span class="company">ETS Academy</span>
+                            <span class="duration">July 2024 - August 2024</span>
+                        </div>
+                        <div class="timeline-description">
+                            <p>Gained comprehensive hands-on experience with core AWS services and cloud infrastructure best practices.</p>
+                            <ul class="timeline-highlights">
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    Worked extensively with core AWS services including EC2, S3, IAM, CloudWatch, and other essential cloud components
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    Designed and implemented a portfolio hosting solution on AWS using S3 and CloudFront, achieving <strong>60% faster load speeds</strong>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    Gained practical knowledge in real-world cloud deployment scenarios and infrastructure optimization
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    Developed understanding of cloud security best practices and infrastructure automation
+                                </li>
+                                <li>
+                                    <i class="fas fa-check"></i>
+                                    This internship sparked deeper interest in DevOps methodologies and motivated further exploration of DevOps-related technologies
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="timeline-skills">
+                            <span class="skill-tag">AWS EC2</span>
+                            <span class="skill-tag">S3</span>
+                            <span class="skill-tag">CloudFront</span>
+                            <span class="skill-tag">IAM</span>
+                            <span class="skill-tag">CloudWatch</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Technical Skills</h2>
+                <p class="section-subtitle">Technologies and tools I work with</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <h3>Cloud Computing</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">AWS EC2</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AWS S3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AWS IAM</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AWS Lambda</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CloudFront</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">API Gateway</span>
+                        <span class="tag">DynamoDB</span>
+                        <span class="tag">CloudWatch</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3>DevOps Tools</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Docker</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Jenkins</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Git & GitHub</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Terraform</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="70"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Grafana</span>
+                        <span class="tag">CI/CD</span>
+                        <span class="tag">Kubernetes</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fab fa-linux"></i>
+                        </div>
+                        <h3>Operating Systems</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Ubuntu</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="90"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">CentOS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="75"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Windows</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Shell Scripting</span>
+                        <span class="tag">System Admin</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <div class="category-icon">
+                            <i class="fab fa-python"></i>
+                        </div>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Bash Scripting</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="80"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">YAML</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-progress="85"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="tag">Infrastructure as Code</span>
+                        <span class="tag">Automation</span>
+                        <span class="tag">API Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">My academic journey and achievements</p>
+            </div>
+            
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-year">2021 - 2025</div>
+                    <div class="education-content">
+                        <div class="education-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="education-details">
+                            <h3>Bachelor of Technology</h3>
+                            <h4>Information Technology</h4>
+                            <p class="institution">Nandha College Of Technology</p>
+                            <div class="grade">CGPA: <span>7.5</span></div>
+                            <div class="education-highlights">
+                                <span class="highlight">Relevant Coursework:</span>
+                                Cloud Computing, Network Security, Database Systems, Software Engineering
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-year">2020 - 2021</div>
+                    <div class="education-content">
+                        <div class="education-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="education-details">
+                            <h3>Higher Secondary Certificate</h3>
+                            <p class="institution">G.B.H.S.S, Erode</p>
+                            <div class="grade">Percentage: <span>82.4%</span></div>
+                            <div class="education-highlights">
+                                <span class="highlight">Stream:</span>
+                                Science with Computer Science
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-year">2018 - 2019</div>
+                    <div class="education-content">
+                        <div class="education-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="education-details">
+                            <h3>Secondary School Leaving Certificate</h3>
+                            <p class="institution">G.B.H.S.S, Erode</p>
+                            <div class="grade">Percentage: <span>73.4%</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcasing my practical experience and technical implementations</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AWS Website Hosting</h3>
+                        <p class="project-description">
+                            Comprehensive cloud-based website hosting solution utilizing multiple AWS services for optimal performance and scalability. Implemented automated deployment pipeline with infrastructure as code.
+                        </p>
+                        <div class="project-features">
+                            <ul>
+                                <li>Proficient deployment using cloud computing tools</li>
+                                <li>Expertise in AWS services integration for scalable web applications</li>
+                                <li>Automated CI/CD pipeline implementation</li>
+                                <li>Performance optimization achieving 60% faster load times</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">AWS Amplify</span>
+                            <span class="tech-tag">Lambda</span>
+                            <span class="tech-tag">DynamoDB</span>
+                            <span class="tech-tag">API Gateway</span>
+                            <span class="tech-tag">EC2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-sync-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">CI/CD Pipeline Implementation</h3>
+                        <p class="project-description">
+                            Orchestrated comprehensive CI/CD pipelines utilizing multiple DevOps tools for seamless integration and automated deployment. Implemented best practices for continuous delivery and deployment automation.
+                        </p>
+                        <div class="project-features">
+                            <ul>
+                                <li>Automated build, test, and deployment processes</li>
+                                <li>Integration with version control systems</li>
+                                <li>Container orchestration and management</li>
+                                <li>Infrastructure monitoring and alerting</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Jenkins</span>
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">GitHub</span>
+                            <span class="tech-tag">Terraform</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AWS Serverless Web Application</h3>
+                        <p class="project-description">
+                            Highly scalable and efficient serverless web application deployed on AWS with optimized performance and cost savings. Implemented college website with enhanced speed, security, and global content delivery.
+                        </p>
+                        <div class="project-features">
+                            <ul>
+                                <li>Serverless architecture implementation</li>
+                                <li>Global content distribution network</li>
+                                <li>Enhanced security and performance optimization</li>
+                                <li>Cost-effective scalable solution</li>
+                            </ul>
+                        </div>
+                        <div class="project-tech">
+                            <span class="tech-tag">AWS Lambda</span>
+                            <span class="tech-tag">S3</span>
+                            <span class="tech-tag">DynamoDB</span>
+                            <span class="tech-tag">CloudFront</span>
+                            <span class="tech-tag">IAM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Achievements & Certifications</h2>
+                <p class="section-subtitle">Recognition of my skills and continuous learning</p>
+            </div>
+            
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>DevOps Course</h3>
+                        <p class="achievement-org">MLC</p>
+                        <p class="achievement-description">
+                            Comprehensive DevOps training covering CI/CD pipelines, containerization, and infrastructure automation
+                        </p>
+                        <div class="achievement-skills">
+                            <span>Docker</span>
+                            <span>Jenkins</span>
+                            <span>Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Python Course</h3>
+                        <p class="achievement-org">Guvi</p>
+                        <p class="achievement-description">
+                            Advanced Python programming course focusing on automation, scripting, and application development
+                        </p>
+                        <div class="achievement-skills">
+                            <span>Python</span>
+                            <span>Automation</span>
+                            <span>Scripting</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievement-card">
+                    <div class="achievement-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>AWS Internship</h3>
+                        <p class="achievement-org">ETS Academy</p>
+                        <p class="achievement-description">
+                            Practical hands-on experience with AWS services and cloud infrastructure management
+                        </p>
+                        <div class="achievement-skills">
+                            <span>AWS</span>
+                            <span>Cloud Computing</span>
+                            <span>Infrastructure</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Publications</h2>
+                <p class="section-subtitle">Contributing to research and academic knowledge</p>
+            </div>
+            
+            <div class="publication-card">
+                <div class="publication-header">
+                    <div class="publication-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="publication-status">
+                        <span class="status-badge">Published</span>
+                        <span class="index-badge">Scopus Indexed</span>
+                    </div>
+                </div>
+                <div class="publication-content">
+                    <h3 class="publication-title">
+                        "Securing Patient Data in Wireless Medical Sensor Networks using ElGamal and Paillier Encryption"
+                    </h3>
+                    <div class="publication-details">
+                        <div class="publication-meta">
+                            <div class="meta-item">
+                                <i class="fas fa-calendar"></i>
+                                <span>27th March 2025</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-university"></i>
+                                <span>SRM Institute of Science and Technology</span>
+                            </div>
+                            <div class="meta-item">
+                                <i class="fas fa-book"></i>
+                                <span>Proceedings of the CoaCoNS 2025 Conference</span>
+                            </div>
+                        </div>
+                        <p class="publication-abstract">
+                            This research focuses on implementing advanced encryption techniques to secure sensitive patient data in wireless medical sensor networks, addressing critical cybersecurity challenges in healthcare IoT systems. The study presents a novel approach combining ElGamal and Paillier encryption methods for enhanced data protection.
+                        </p>
+                        <div class="publication-keywords">
+                            <span class="keyword">Cybersecurity</span>
+                            <span class="keyword">Healthcare IoT</span>
+                            <span class="keyword">Encryption</span>
+                            <span class="keyword">Medical Sensors</span>
+                            <span class="keyword">Data Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Ready to contribute to your team's success! Let's discuss opportunities.</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p>gopipaaru2004@gmail.com</p>
+                            <a href="mailto:gopipaaru2004@gmail.com" class="contact-link">Send Email</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p>+91 9597860229</p>
+                            <a href="tel:+919597860229" class="contact-link">Call Now</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Erode, Tamil Nadu</p>
+                            <p class="contact-subtext">India - 638011</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <p>@Gopi4891</p>
+                            <a href="https://github.com/Gopi4891" class="contact-link" target="_blank">View Profile</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3>Send me a message</h3>
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <i class="fas fa-cloud"></i>
+                        <span>Gopinath S</span>
+                    </div>
+                    <p class="footer-tagline">
+                        Passionate about DevOps and Cloud Technologies.<br>
+                        Building the future, one deployment at a time.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://github.com/Gopi4891" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="mailto:gopipaaru2004@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/gopinath-s" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="tel:+919597860229" class="social-link">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-right">
+                    <div class="footer-links">
+                        <div class="footer-column">
+                            <h4>Navigation</h4>
+                            <ul>
+                                <li><a href="#home">Home</a></li>
+                                <li><a href="#about">About</a></li>
+                                <li><a href="#experience">Experience</a></li>
+                                <li><a href="#skills">Skills</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-column">
+                            <h4>Portfolio</h4>
+                            <ul>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#publications">Publications</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="assets/Gopinath_Resume.pdf" target="_blank">Resume</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Gopinath S. All rights reserved.</p>
+                <p>Built with passion and dedication to DevOps excellence.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+</body>
+</html>
